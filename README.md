@@ -8,28 +8,28 @@ We will balance and implement the following models, and evaluate their effective
 • Combination SMOTEENN
 
 ## Analysis
-Naïve random oversampling
+**Naïve random oversampling**
 ![naive](/Resources/naive_random.png)
 The accuracy score is .65 but the precision score for high risk scores is minimal at .01 compared to the much higher precision score for low risk. This indicates over fitting for the low risk scores.
 
-SMOTE
+**SMOTE**
 ![smote](/Resources/SMOTE.png)
 The accuracy score is .63 and the model has similar issues as Naïve random oversampling, with slightly different recall scores that are still middling.
 
-Undersampling
+**Undersampling**
 ![under](/Resources/undersampling.png)
 Similar issues with overfitting towards low risk, with an accuracy score of .63. Recall scores remain middling
 
-SMOTEENN
+**SMOTEENN**
 ![smoteenn](/Resources/SMOTEENN.png)
 Scores remain overfitted, and middling accuracy and recall scores.
 
 Overall, no strong models with models that do not correctly identify high risk applicants. Additionally, accuracy and recall scores are average.
 
-Random Forest
+**Random Forest**
 ![r_forest](/Resources/random_forest.png)
 Incremental improvement to accuracy score (.73) and high risk precision at .03, but overall still not an effective model.
 
-EasyEnsemble
+**EasyEnsemble**
 ![eensemble](/Resources/easy_ensemble.png)
 Strong accuracy scores with high precision scores for both low risk and high risk scores (1.00 and .92). While recall score for high risk is middling at .47, the F1 score is .62. Overall, this is the strongest model.
