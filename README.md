@@ -33,4 +33,5 @@ Incremental improvement to accuracy score (.73) and high risk precision at .03, 
 **EasyEnsemble**
 
 ![eensemble](/Resources/easy_ensemble.png)
+
 Strong accuracy scores with high precision scores for both low risk and high risk scores (1.00 and .92). While recall score for high risk is middling at .47, the F1 score is .62. Overall, this is the strongest model.
