@@ -12,6 +12,7 @@ Naïve random oversampling
 The accuracy score is .65 but the precision score for high risk scores is minimal at .01 compared to the much higher precision score for low risk. This indicates over fitting for the low risk scores.
 
 SMOTE
+![smote](/Resources/SMOTE.png)
 The accuracy score is .63 and the model has similar issues as Naïve random oversampling, with slightly different recall scores that are still middling.
 
 Undersampling
